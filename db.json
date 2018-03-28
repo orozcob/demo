@@ -1,15 +1,39 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" },
-    { "id": 4, "title": "Post 4 BO" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "@odata.context": "https://preprod-na.intelex.com/Login3/LCRATest/api/v2/object/$metadata#AssetManager_VehicleObject",
+   "value": [   {
+      "@odata.type": "#Intelex.AssetManager_VehicleObject",
+      "@odata.id": "https://preprod-na.intelex.com/Login3/LCRATest/api/v2/object/AssetManager_VehicleObject(c8543bde-299e-4b37-af8a-dbc11e5acdbb)",
+      "@odata.editLink": "https://preprod-na.intelex.com/Login3/LCRATest/api/v2/object/AssetManager_VehicleObject(c8543bde-299e-4b37-af8a-dbc11e5acdbb)",
+      "Id": "c8543bde-299e-4b37-af8a-dbc11e5acdbb",
+      "DateCreated": "2017-08-21T21:37:02.747Z",
+      "DateModified": "2017-09-25T19:49:19.333Z",
+      "AcEffectiveDate": null,
+      "AssetID": "51205",
+      "CountProfileHel": 0,
+      "Description": null,
+      "ExpiryDate": null,
+      "Name": "51205 FORD F350",
+      "OwnerManager": null,
+      "RecordNo": 1188,
+      "CarSerialNumber": "1FDSX34F81EB70689",
+      "Class": "PuTrk/2wd/SRW",
+      "DisplayField": "51205 FORD F350",
+      "GVWR": "9901.0",
+      "InsuranceComp": null,
+      "InsurancePolicy": null,
+      "InsurExpiryDate": null,
+      "License": "1203606",
+      "MakeofVehicle": "FORD",
+      "OtherPurpose": null,
+      "OwContactNumber": null,
+      "OwnerCity": null,
+      "OwnerName": null,
+      "OwnerPostalCode": null,
+      "OwnerProvice": null,
+      "OwnersAddress": null,
+      "RegistratNumber": null,
+      "VehicleModel": "F350",
+      "VehicleStatus": "OPERATING",
+      "VehicleYear": "2001"
+   }]
 }
